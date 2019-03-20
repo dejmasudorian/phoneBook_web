@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="../phoneBook_web/css/style.css">
+</head>
+<body>
+
+<h1>To Do List</h1>
+
+<table id="phone-book">
+    <thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Learn HTML</td>
+        <td>15.03.2019</td>
+        <td><input type="checkbox" title="Done"></td>
+    </tr>
+    <tr>
+        <td>Learn CSS</td>
+        <td>16.03.2019</td>
+        <td><input type="checkbox" title="Done"></td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Add new phone number</h3>
+<form id="add">
+    <input type="text" name="first_name" title="First Name" placeholder="First Name">
+    <input type="text" name="last_name" title="Last Name" placeholder="Last Name">
+    <input type="text" name="phone_number" title="Phone Number" placeholder="Phone Number">
+    <button type="submit">
+        Save
+    </button>
+</form>
+<form id="delete">
+    <input type="text" name="first_name" title="First Name" placeholder="First Name">
+    <input type="text" name="last_name" title="Last Name" placeholder="Last Name">
+    <input type="text" name="phone_number" title="Phone Number" placeholder="Phone Number">
+    <button type="submit">
+        Delete
+    </button>
+</form>
+<script src="../phoneBook_web/js/lib/jquery-3.3.1.js"></script>
+<script src="../phoneBook_web/js/phone-book.js.js"></script>
+</body>
+</html>
